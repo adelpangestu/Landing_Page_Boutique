@@ -1,0 +1,109 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(img/model.jpg);
+background-size: cover;
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 54px;
+}
+
+.form-group::before{
+    font-family: 'fontAwesome';
+    content: '\f007';
+    position: absolute;
+    font-size: 22px;
+    color: grey;
+    left: 28px;
+    padding-top: 4px;
+
+}
+
+.form-group:last-of-type::before{
+    content: '\f023';
+}
+
+.form-check{
+    color: white;
+}
+
+.form-check:hover{
+    color: rgb(214, 49, 49);
+}
+
+button{
+    width: 40%;
+    margin: 5px 0 25px;
+}
+
+.btn{
+    background-color: rgb(214, 49, 49);
+    color: white;
+    font-size: 15px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(214, 49, 49);
+}
+
+.btn:hover, .btn:focus{
+    color: black;
+    background-color: white;
+    transition: all 0.3s;
+    border-bottom: 2px solid black;
+}
+
+.forgot{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: white;
+}
+
+.forgot a:hover{
+    text-decoration: none;
+    color:rgb(214, 49, 49);
+}
+
+
+@media (min-width: 992px) {
+    .btn{
+        font-size: 18px;
+    }
+}

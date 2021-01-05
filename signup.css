@@ -1,0 +1,76 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/womenblonderoadnaturelandscapebarefootnebraskajakeolsonbluedressbareshoulderslookingdown-1588424789067-8852.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-style: 40px;
+    color: white;
+    margin-top: 250px;
+}
+
+p{
+    font-style: 40px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+}
+
+.col-md-6 i{
+    font-size: 30px;
+    color: white;
+    float: right;
+}
+
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.8);
+}
+
+label{
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.form-control{
+    background: rgba(255,255,255,0.2);
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 2px solid white;
+}
+
+input{
+    margin-top: 20px;
+}
+
+small{
+    font-size: 14px;
+    color: grey;
+}
+
+.first-name{
+    font-size: 18px;
+}
+
+.col-md-5{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.btn{
+    margin-left:200px;
+    margin-top: 20px;
+}
